@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacHomeBase - Classic Launchpad for macOS</title>
+    <meta name="description" content="MacHomeBase brings back the classic Launchpad experience to macOS. Free Launchpad replacement with folders, drag-and-drop organization, and more.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            padding: 2rem 0;
+            text-align: center;
+            color: white;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+        
+        .hero {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            margin: 2rem 0;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .feature {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        .feature p {
+            color: #666;
+        }
+        
+        .cta-section {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            margin: 3rem 0;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 0.5rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .secondary-btn {
+            display: inline-block;
+            border: 2px solid #667eea;
+            color: #667eea;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .secondary-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .status {
+            background: #f8f9fa;
+            border-left: 4px solid #28a745;
+            padding: 1rem;
+            margin: 2rem 0;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .status.warning {
+            border-left-color: #ffc107;
+            background: #fff8e1;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .hero, .cta-section {
+                padding: 2rem;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🏠 MacHomeBase</div>
+            <div class="tagline">Classic Launchpad for macOS</div>
+        </header>
+        
+        <div class="hero">
+            <h1>Bring Back the Classic Launchpad</h1>
+            <p>MacHomeBase recreates the beloved Launchpad experience that Apple removed in macOS Tahoe. Organize your apps with folders, drag-and-drop functionality, and the familiar grid layout you remember.</p>
+            
+            <div class="status warning">
+                <strong>⚠️ Development Status:</strong> MacHomeBase is currently in alpha development. Core functionality is working, but the app is not yet available for download.
+            </div>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📱</div>
+                <h3>Classic Grid Layout</h3>
+                <p>Familiar app organization with the grid layout you know and love from the original Launchpad.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">📁</div>
+                <h3>Smart Folders</h3>
+                <p>Create custom folders by dragging apps together. Perfect for organizing productivity tools, games, and more.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🎯</div>
+                <h3>Drag & Drop</h3>
+                <p>Intuitive drag-and-drop interface for effortless app organization and folder management.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>Fast & Lightweight</h3>
+                <p>Built with Swift and SwiftUI for native macOS performance with minimal memory usage.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <h3>Privacy Focused</h3>
+                <p>No data collection, no analytics. Your app usage stays private on your Mac.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🆓</div>
+                <h3>Free Forever</h3>
+                <p>Core Launchpad replacement functionality will always be free. Optional Pro features planned for the future.</p>
+            </div>
+        </div>
+        
+        <div class="cta-section">
+            <h2>Ready to Try MacHomeBase?</h2>
+            <p>The app is currently in development. Follow our progress and report issues on GitHub.</p>
+            
+            <a href="https://github.com/dcherrera/MacHomeBase-Public/issues" class="download-btn">Report Issues</a>
+            <a href="https://github.com/dcherrera/MacHomeBase-Public" class="secondary-btn">View on GitHub</a>
+            
+            <div class="status">
+                <strong>📧 Get Notified:</strong> Star the GitHub repository to get notified when MacHomeBase is ready for download.
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MacHomeBase. Built with ❤️ for the Mac community.</p>
+            <p>Not affiliated with Apple Inc. macOS and Launchpad are trademarks of Apple Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>
