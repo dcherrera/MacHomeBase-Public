@@ -25,7 +25,11 @@ MacHomeBase is a free app launcher for macOS that replaces Apple's discontinued 
 - ⚙️ **Appearance Customization** - Adjustable spacing, grid size, themes
 - 🎨 **Visual Options** - Custom backgrounds, icon styles
 - 📐 **Layout Controls** - Configurable grid layouts
-- ✨ **Advanced Features** - Power user enhancements
+- 📁 **Nested Folders** - Folders within folders organization
+- 🏷️ **Named Views** - Custom named windows with specific app collections
+- 🧩 **Widgets Integration** - Possibly include widgets in views (difficulty dependent)
+- 🗺️ **Free-form Layouts** - Possibly use background images with custom icon placement (difficulty dependent)
+- ✨ **Advanced Features** - Additional power user enhancements
 
 ## 📥 Download
 
@@ -57,7 +61,7 @@ Since MacHomeBase is still in development, you can help by:
 ## ❓ Frequently Asked Questions
 
 **Q: Why create MacHomeBase when Launchpad exists?**
-A: Apple removed Launchpad from macOS Tahoe. MacHomeBase recreates the beloved Launchpad experience with modern enhancements like better folder management, improved visual design, and enhanced customization options.
+A: Apple removed Launchpad from macOS Tahoe. MacHomeBase recreates the beloved Launchpad experience with modern enhancements and improved visual design.
 
 **Q: Will MacHomeBase always be free?**
 A: Yes! The core Launchpad replacement functionality will always remain completely free. Pro features (appearance customization, advanced layouts) are optional paid upgrades to support ongoing development.
@@ -92,10 +96,10 @@ A: No, MacHomeBase is a closed-source passion project. This GitHub repository is
 
 ## 🙏 About This Project
 
-MacHomeBase is a passion project created by an individual developer who missed Launchpad after Apple removed it. While it would be nice to earn something from this work, the primary goal is simply to restore functionality that many macOS users relied on.
+MacHomeBase is a passion project created by David Herrera, an individual developer who missed Launchpad after Apple removed it. While it would be nice to earn something from this work, the primary goal is simply to restore functionality that many macOS users relied on.
 
 This GitHub repository exists purely for practical reasons - GitHub's issue tracking and community management tools are excellent, regardless of whether a project is open source or not.
 
 ---
 
-**A passion project for the macOS community**
+**A passion project for the macOS community by David Herrera**
