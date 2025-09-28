@@ -1,25 +1,31 @@
-# MacHomeBase - Modern macOS App Launcher
+# MacHomeBase - macOS App Launcher
 
-![MacHomeBase Banner](https://img.shields.io/badge/macOS-App%20Launcher-blue?style=for-the-badge&logo=apple)
-![Version](https://img.shields.io/badge/version-1.0-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0--alpha-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-in%20development-yellow?style=for-the-badge)
 
-MacHomeBase is a modern, full-screen app launcher for macOS designed to replace Apple's discontinued Launchpad. It provides a clean, intuitive interface for organizing and launching your applications.
+MacHomeBase is an app launcher for macOS being developed to replace Apple's discontinued Launchpad. Currently in active development.
 
-## ✨ Features
+## 🚧 Current Features
 
-- 🚀 **Full-Screen App Launcher** - Clean, distraction-free interface
-- 📁 **Custom Folders** - Organize apps with drag-and-drop folder creation  
-- 🎨 **Beautiful Animations** - Smooth transitions and modern UI
-- 🔄 **Drag & Drop** - Intuitive app organization
-- 📱 **Multi-Page Support** - Handle large app collections
-- 💾 **Persistent Layouts** - Your organization is saved automatically
-- 🌙 **Background Blur** - Professional macOS-style visual effects
-- 🖱️ **Click to Exit** - Click anywhere to close the launcher
+- ✅ **Basic App Launcher** - Full-screen app grid
+- ✅ **Folder Creation** - Drag apps together to create folders
+- ✅ **App Organization** - Drag and drop to rearrange
+- ✅ **Layout Persistence** - Saves your organization
+- ✅ **Background Blur** - Basic visual effects
+- ✅ **Click to Exit** - Click background to close
+
+## 🔄 In Development
+
+- 🔨 **Improved UI/UX** - Still refining the interface
+- 🔨 **Better Performance** - Optimizing for larger app collections
+- 🔨 **Enhanced Animations** - Smoother transitions
+- 🔨 **Customization Options** - User-configurable settings
+- 🔨 **Stability Improvements** - Bug fixes and edge cases
 
 ## 📥 Download
 
-**Coming Soon to Mac App Store**
+**Not yet available** - Still in active development. Check back for updates!
 
 ## 🐛 Bug Reports & Feature Requests
 
@@ -35,14 +41,14 @@ Found a bug or have a feature request? Please use the [Issues](https://github.co
 - 💡 [Request a Feature](https://github.com/dcherrera/MacHomeBase-Public/issues/new?template=feature_request.md)
 - ❓ [Ask a Question](https://github.com/dcherrera/MacHomeBase-Public/issues/new?template=question.md)
 
-## 💝 Support Development
+## 🤝 Help Development
 
-If MacHomeBase is useful to you, please consider supporting its development:
+Since MacHomeBase is still in development, you can help by:
 
-- 💰 **In-App Tips** - Available in the app's About section
-- ⭐ **Star this Repository** - Help others discover MacHomeBase
-- 🐛 **Report Bugs** - Help improve the app for everyone
-- 💬 **Spread the Word** - Tell others about MacHomeBase
+- 🐛 **Report Bugs** - Help identify issues and edge cases
+- 💡 **Suggest Features** - Share ideas for improvement
+- ⭐ **Star this Repository** - Show interest in the project
+- 📢 **Provide Feedback** - Share your experience and suggestions
 
 ## ❓ Frequently Asked Questions
 
