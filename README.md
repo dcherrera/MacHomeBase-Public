@@ -1,7 +1,6 @@
 # MacHomeBase - macOS App Launcher
 
 ![Version](https://img.shields.io/badge/version-1.0--alpha-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-in%20development-yellow?style=for-the-badge)
 
 MacHomeBase is a free app launcher for macOS that replaces Apple's discontinued Launchpad. The core Launchpad functionality will always remain free, with optional Pro features available for advanced customization.
@@ -75,8 +74,8 @@ A: Simply drag one app onto another app. A folder will be created instantly cont
 **Q: How do I add apps to existing folders?**
 A: Drag any app onto an existing folder to add it to that folder.
 
-**Q: Is the source code available?**
-A: The main development happens in a private repository. This public repository is for community support and bug tracking.
+**Q: Is this an open source project?**
+A: No, MacHomeBase is a closed-source passion project. This GitHub repository is used for bug tracking and community feedback because GitHub's tools are excellent for managing user reports and feature requests.
 
 ## 🔧 System Requirements
 
@@ -90,19 +89,13 @@ A: The main development happens in a private repository. This public repository 
 - 💬 **General Questions**: Use GitHub Issues with the question template
 - 📧 **Email**: Available in the app's About section
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🙏 About This Project
 
-## 🙏 Acknowledgments
+MacHomeBase is a passion project created by an individual developer who missed Launchpad after Apple removed it. While it would be nice to earn something from this work, the primary goal is simply to restore functionality that many macOS users relied on.
 
-- Thanks to the macOS community for feedback and suggestions
-- Built with SwiftUI and modern macOS frameworks
-- Inspired by the need for a better app launcher experience
+This GitHub repository exists purely for practical reasons - GitHub's issue tracking and community management tools are excellent, regardless of whether a project is open source or not.
 
 ---
 
-**Made with ❤️ for the macOS community**
-
-![Downloads](https://img.shields.io/badge/downloads-coming%20soon-blue)
-![Rating](https://img.shields.io/badge/rating-⭐⭐⭐⭐⭐-yellow)
+**A passion project for the macOS community**
