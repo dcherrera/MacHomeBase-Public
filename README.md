@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-in%20development-yellow?style=for-the-badge)
 
-MacHomeBase is an app launcher for macOS being developed to replace Apple's discontinued Launchpad. Currently in active development.
+MacHomeBase is a free app launcher for macOS that replaces Apple's discontinued Launchpad. The core Launchpad functionality will always remain free, with optional Pro features available for advanced customization.
 
 ## 🚧 Current Features
 
@@ -15,13 +15,18 @@ MacHomeBase is an app launcher for macOS being developed to replace Apple's disc
 - ✅ **Background Blur** - Basic visual effects
 - ✅ **Click to Exit** - Click background to close
 
-## 🔄 In Development
+## 🔄 Planned Updates (Free)
 
-- 🔨 **Improved UI/UX** - Still refining the interface
-- 🔨 **Better Performance** - Optimizing for larger app collections
-- 🔨 **Enhanced Animations** - Smoother transitions
-- 🔨 **Customization Options** - User-configurable settings
-- 🔨 **Stability Improvements** - Bug fixes and edge cases
+- 🔨 **Bug Fixes** - Stability and edge case improvements
+- 🔨 **Performance** - Optimizing for larger app collections
+- 🔨 **Core Features** - Additional Launchpad functionality as needed
+
+## 💼 Planned Pro Features (Paid)
+
+- ⚙️ **Appearance Customization** - Adjustable spacing, grid size, themes
+- 🎨 **Visual Options** - Custom backgrounds, icon styles
+- 📐 **Layout Controls** - Configurable grid layouts
+- ✨ **Advanced Features** - Power user enhancements
 
 ## 📥 Download
 
@@ -55,11 +60,14 @@ Since MacHomeBase is still in development, you can help by:
 **Q: Why create MacHomeBase when Launchpad exists?**
 A: Apple removed Launchpad from macOS Tahoe. MacHomeBase recreates the beloved Launchpad experience with modern enhancements like better folder management, improved visual design, and enhanced customization options.
 
+**Q: Will MacHomeBase always be free?**
+A: Yes! The core Launchpad replacement functionality will always remain completely free. Pro features (appearance customization, advanced layouts) are optional paid upgrades to support ongoing development.
+
 **Q: Is my app organization data safe?**
 A: Yes, all data is stored locally on your Mac using standard macOS preferences. Nothing is sent to external servers.
 
 **Q: Can I customize the appearance?**
-A: Basic customization is available now, with more spacing and layout options planned for future Pro features.
+A: The free version provides the core Launchpad experience. Appearance customization (spacing, themes, layouts) will be available as optional Pro features to support ongoing development.
 
 **Q: How do I create folders?**
 A: Simply drag one app onto another app. A folder will be created instantly containing both apps.
