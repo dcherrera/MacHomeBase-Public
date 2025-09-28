@@ -47,7 +47,7 @@ If MacHomeBase is useful to you, please consider supporting its development:
 ## ❓ Frequently Asked Questions
 
 **Q: Why create MacHomeBase when Launchpad exists?**
-A: Apple's Launchpad has limitations and many users want a more customizable, modern solution. MacHomeBase provides enhanced features like better folder management and improved visual design.
+A: Apple removed Launchpad from macOS Tahoe. MacHomeBase recreates the beloved Launchpad experience with modern enhancements like better folder management, improved visual design, and enhanced customization options.
 
 **Q: Is my app organization data safe?**
 A: Yes, all data is stored locally on your Mac using standard macOS preferences. Nothing is sent to external servers.
